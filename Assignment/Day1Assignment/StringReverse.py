@@ -1,0 +1,6 @@
+str =input("Enter String:")
+list1 =list(str)
+list1.reverse()
+print("---String Reverse---")
+print("without using slicing:","".join(list1))
+print("with Slicing:",str[::-1])
